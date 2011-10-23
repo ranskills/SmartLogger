@@ -3,6 +3,8 @@ A JavaScript logging utility that wraps around the _web_ _console_ feature, prov
 
 ## Features
 
+* Wraps calls to _console_ in exception handlers so you wouldn't have to bother about browsers lacking consoles
+* Has different logging levels, like DEBUG, LOG, INFO, WARN, etc
 
 ## Usage
 ```javascript
